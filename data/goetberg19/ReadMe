@@ -1,0 +1,221 @@
+J/A+A/629/A134      Radiative contribution from stripped stars (Goetberg+, 2019)
+================================================================================
+The impact of stars stripped in binaries on the integrated spectra of
+stellar populations.
+    Goetberg Y., de Mink S.E., Groh J.H., Leitherer C., Norman C.
+    <Astron. Astrophys. 629, A134 (2019)>
+    =2019A&A...629A.134G        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Models ; Galaxies, optical ; Populations, stellar ; Spectroscopy
+Keywords: ultraviolet: galaxies - binaries: close - stars: atmospheres -
+          galaxies: starburst - galaxies: stellar content
+
+Abstract:
+    Stars stripped of their envelopes from interaction with a binary
+    companion emit a significant fraction of their radiation as ionizing
+    photons. They are potentially important stellar sources of ionizing
+    radiation, however, they are still often neglected in spectral
+    synthesis simulations or simulations of stellar feedback. In
+    anticipating the large datasets of galaxy spectra from the upcoming
+    James Webb Space Telescope, we modeled the radiative contribution from
+    stripped stars by using detailed evolutionary and spectral models. We
+    estimated their impact on the integrated spectra and specifically on
+    the emission rates of HI-, HeI-, and HeII-ionizing photons
+    from stellar populations. We find that stripped stars have the largest
+    impact on the ionizing spectrum of a population in which star
+    formation halted several Myr ago. In such stellar populations,
+    stripped stars dominate the emission of ionizing photons, mimicking a
+    younger stellar population in which massive stars are still present.
+    Our models also suggest that stripped stars have harder ionizing
+    spectra than massive stars. The additional ionizing radiation, with
+    which stripped stars contribute affects observable properties that are
+    related to the emission of ionizing photons from stellar populations.
+    In co-eval stellar populations, the ionizing radiation from stripped
+    stars increases the ionization parameter and the production efficiency
+    of hydrogen ionizing photons. They also cause high values for these
+    parameters for about ten times longer than what is predicted for
+    massive stars. The effect on properties related to non-ionizing
+    wavelengths is less pronounced, such as on the ultraviolet continuum
+    slope or stellar contribution to emission lines. However, the hard
+    ionizing radiation from stripped stars likely introduces a
+    characteristic ionization structure of the nebula, which leads to the
+    emission of highly ionized elements such as O^2+^ and C^3+^. We,
+    therefore, expect that the presence of stripped stars affects the
+    location in the BPT diagram and the diagnostic ratio of OIII to
+    OII nebular emission lines. Our models are publicly available
+    through CDS database and on the STARBURST99 website.
+
+Description:
+    We provide results for the radiative contribution from stripped stars
+    at four different metallicities: Z = 0.014 (solar), 0.006 (similar to
+    the Large Magellanic Cloud), 0.002 (similar to the Small Magellanic
+    Cloud), and 0.0002 (very low metallicity environment).
+
+    For each metallicity, we provide the following files:
+    nbr_stripped_Z0.0XX.txt
+    Q_Z0.0XX_stripped_starburst.txt
+    SED_Z0.0XX_starburst.txt
+    UV_Z0.0XX_starburst.txt
+    opt_Z0.0XX_starburst.txt
+    SED_Z0.0XX_constant.txt
+    UV_Z0.0XX_constant.txt
+    opt_Z0.0XX_constant.txt
+    where the XX is replaced to match the specific metallicity.
+
+    We label the quantities for a 10^6^M_{sun}_ instantaneous starburst
+    with '_starburst' and the quantities for a population in which stars
+    are formed at a constant rate of 1M_{sun}_/yr with '_constant'. The
+    files only contain the contribution from stripped stars and neglects
+    the contribution from other stars in the stellar population.
+
+
+    Below, we describe the content of the different files in detail.
+
+    ------------------------
+    nbrs0XX.dat (nbr_stripped_Z0.0XX.txt)
+    ------------------------
+    This file gives the number of stripped stars present in a stellar
+    population at given times. It has eight columns and the first row is a
+    header. The file only exists for the instantaneous starburst. The
+    first column contains the time in years. The second column provides
+    the total number of stripped stars present in the population at the
+    given time. The columns number 3, 4, and 5 give the number of stripped
+    stars present that were formed via Case A type mass transfer, Case B
+    type mass transfer, and successful ejection of a common envelope that
+    was initiated during the Hertzsprung gap passage of the donor star,
+    respectively. The columns number 6, 7, and 8 contain the number of
+    stripped stars that have progenitors that were initially more massive
+    than 10M_{sun}_, 5M_{sun}_, and 3M_{sun}_, respectively.
+
+
+    -----------------------
+    q0.0XX.dat (Q_Z0.0XX_stripped_starburst.txt)
+    -----------------------
+    This file gives the emission rates of ionizing photons from stripped
+    stars at different times. It has four columns and the first five rows
+    are a header. The file only exists for the instantaneous starburst.
+    The first column gives the time in years. The column number 2, 3, and
+    4 provide the logarithm of the emission rates of HI-, HeI-, and
+    HeII-ionizing photons from stripped stars respectively. In the case
+    there were no stripped stars present in the population, the logarithm
+    of the ionizing emission rates are set to -30.
+
+    -----------------------
+    sed/SED_Z0.0XX_xxx.txt
+    -----------------------
+    This file gives the spectral energy distribution from stripped stars
+    at different times. The header is six rows. The first row of data is
+    the wavelength array with values in Angstrom and the first element in
+    the array is empty. The first column represents the time given in
+    years. Each row gives the spectral energy distribution for the
+    contribution from stripped stars at each time (given in the first
+    element of each row). The spectral energy distribution is given in
+    luminosity in units of erg/s/{AA}. There is one file for the
+    instantaneous starburst and one for the constant star-formation.
+
+    -----------------------
+    uv/UV_Z0.0XX_xxx.txt
+    -----------------------
+    This file gives the contribution from stripped stars in the UV
+    spectral range (1000-3000 Angstrom) in a higher resolution than the
+    spectral energy distribution file. The first six rows are part of the
+    header. The first row of data corresponds to the wavelength array in
+    Angstrom (first element empty). The following rows contain the
+    spectral energy distribution from stripped stars and in the UV. The
+    first element in each row gives the time in years. The UV spectral
+    energy distribution is given in luminosity in unit erg/s?{AA}. This
+    file exists for both the instantaneous starburst and the constant star
+    formation.
+
+    -----------------------
+    opt/opt_Z0.0XX_xxx.txt
+    -----------------------
+    This file gives the contribution from stripped stars in the optical
+    spectral range (3000-9000 Angstrom) in a higher resolution than the
+    spectral energy distribution file. The first six rows are part of the
+    header. The first row of data corresponds to the wavelength array in
+    Angstrom (first element empty). The following rows contain the
+    spectral energy distribution from stripped stars and in the optical.
+    The first element in each row gives the time in years. The optical
+    spectral energy distribution is given in luminosity in unit erg/s/{AA}.
+    This file exists for both the instantaneous starburst and the
+    constant star formation.
+
+    For achieving the number of stripped stars as function of time or the
+    emission rates of ionizing photons from stripped stars as function of
+    time in the case of constant star-formation, the values in the files
+    for the instantaneous starburst can easily be convolved with time.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+nbrs0002.dat      77      500   Z=0.0002 number of stripped stars
+nbrs002.dat       77      500   Z=0.002 number of stripped stars
+nbrs006.dat       77      500   Z=0.006 number of stripped stars
+nbrs014.dat       77      500   Z=0.014 number of stripped stars
+q0002.dat         83      500   Z=0.0002 emission rates of ionizing photons
+                                 from stripped stars
+q002.dat          83      500   Z=0.002 emission rates of ionizing photons
+                                 from stripped stars
+q006.dat          83      500   Z=0.006 emission rates of ionizing photons
+                                 from stripped stars
+q014.dat          83      500   Z=0.014 emission rates of ionizing photons
+                                 from stripped stars
+sed/*              .        8   Spectral energy distribution from stripped stars
+                                 at different times
+uv/*               .        8   Contribution from stripped stars in the UV
+                                 spectral range (1000-3000{AA}) in a higher
+                                 resolution than the spectral energy
+                                 distribution file.
+opt/*              .        8   Contribution from stripped stars in the optical
+                                 spectral range (3000-9000{AA}) in a higher
+                                 resolution than the spectral energy
+                                 distribution file
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file (#): nbrs*.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label   Explanations
+--------------------------------------------------------------------------------
+   1- 22 F22.11 yr     Time    Time
+  25- 29  F5.1  ---    NTot    Total number of stripped stars present in the
+                               population at the given time (total_nbr)
+  33- 37  F5.1  ---    NcaseA  Number of stripped stars present that were formed
+                                via Case A type mass transfer (nbr_caseA)
+  41- 45  F5.1  ---    NCaseB  Number of stripped stars present that were formed
+                                via Case B type mass transfer (nbr_caseB)
+  48- 52  F5.1  ---    NBCEE   Number of stripped stars present that were formed
+                                via successful ejection of a common envelope
+                                that was initiated during the Hertzsprung gap
+                                passage of the donor star (nbr_BCEE)
+  57- 61  F5.1  ---    Ngtr10  Number of stripped stars that have progenitors
+                                that were initially more massive than 10M_{sun}_
+                                (nbr_gtr_10)
+  65- 69  F5.1  ---    Ngtr5   Number of stripped stars that have progenitors
+                                that were initially more massive than 5M_{sun}_
+                                (nbr_gtr_5)
+  73- 77  F5.1  ---    Ngtr3   Number of stripped stars that have progenitors
+                                that were initially more massive than 3M_{sun}_
+                                (nbr_gtr_3)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file (#): q*.dat
+--------------------------------------------------------------------------------
+   Bytes Format  Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1- 22 F22.11  yr     Time      Time
+  24- 42 F19.15  [s-1]  log10(Q0) ?=-30 logarithm of the emission rates of
+                                   HI-ionizing photons from stripped stars
+  44- 62 F19.15  [s-1]  log10(Q1) ?=-30 logarithm of the emission rates of
+                                   HeI-ionizing photons from stripped stars
+  65- 83 F19.15  [s-1]  log10(Q2) ?=-30 logarithm of the emission rates of
+                                   HeII-ionizing photons from stripped stars
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+     Ylva Gotberg, ygoetberg(at)carnegiescience.edu
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  16-Aug-2019

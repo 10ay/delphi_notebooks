@@ -1,0 +1,240 @@
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2777: SyntaxWarning: invalid escape sequence '\m'
+  plt.xlabel('$T_\mathrm{eff}$ [kK]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2778: SyntaxWarning: invalid escape sequence '\,'
+  plt.ylabel('log($L)\, [L_{\odot}$]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2918: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Wavelength [$\AA$]', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2919: SyntaxWarning: invalid escape sequence '\A'
+  plt.ylabel('log (Luminosity [$erg s^{-1} \AA^{-1}$])', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2087: RuntimeWarning: divide by zero encountered in log10
+  timestep_mdot[i] = np.log10((10**timestep_mdot[i]))
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2005: RuntimeWarning: divide by zero encountered in divide
+  timestep_coher=((timestep_12C/12.)+(timestep_16O/16.))/(timestep_H/4.) #WRONG NEEDS TO BE He INSTEAD OF H ABUNDANCE
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2525: RuntimeWarning: divide by zero encountered in log10
+  population_flux_iterations_send.append(np.log10(population_flux)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2539: RuntimeWarning: divide by zero encountered in log10
+  timestep_uv_slope_x, timestep_uv_slope_y, timestep_uv_slope_beta = get_uv_slope(np.log10(reformed_spec_grid[0][:,0]), np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2549: RuntimeWarning: divide by zero encountered in log10
+  population_flux_total_iterations_send.append(np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2175: RuntimeWarning: invalid value encountered in log10
+  wmom = np.log10(wind_mom_sum +1e-30) + 35.
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2927: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3121: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HI_flux_iterations, label='Pauli')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3131: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3136: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3140: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEI_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3155: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3159: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEII_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3169: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3177: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_L_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3186: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3237: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3257: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3292: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3348: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3400: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3437: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3447: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3453: RuntimeWarning: divide by zero encountered in log10
+  ax.scatter(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3463: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Execution time: 281.9177939891815 seconds
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2777: SyntaxWarning: invalid escape sequence '\m'
+  plt.xlabel('$T_\mathrm{eff}$ [kK]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2778: SyntaxWarning: invalid escape sequence '\,'
+  plt.ylabel('log($L)\, [L_{\odot}$]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2918: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Wavelength [$\AA$]', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2919: SyntaxWarning: invalid escape sequence '\A'
+  plt.ylabel('log (Luminosity [$erg s^{-1} \AA^{-1}$])', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2087: RuntimeWarning: divide by zero encountered in log10
+  timestep_mdot[i] = np.log10((10**timestep_mdot[i]))
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2005: RuntimeWarning: divide by zero encountered in divide
+  timestep_coher=((timestep_12C/12.)+(timestep_16O/16.))/(timestep_H/4.) #WRONG NEEDS TO BE He INSTEAD OF H ABUNDANCE
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2927: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3121: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HI_flux_iterations, label='Pauli')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3131: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3136: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3140: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEI_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3155: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3159: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEII_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3169: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3177: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_L_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3186: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3237: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3257: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3292: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3348: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3400: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3437: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3447: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3453: RuntimeWarning: divide by zero encountered in log10
+  ax.scatter(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3463: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Execution time: 96.23496699333191 seconds
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2777: SyntaxWarning: invalid escape sequence '\m'
+  plt.xlabel('$T_\mathrm{eff}$ [kK]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2778: SyntaxWarning: invalid escape sequence '\,'
+  plt.ylabel('log($L)\, [L_{\odot}$]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2918: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Wavelength [$\AA$]', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2919: SyntaxWarning: invalid escape sequence '\A'
+  plt.ylabel('log (Luminosity [$erg s^{-1} \AA^{-1}$])', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2087: RuntimeWarning: divide by zero encountered in log10
+  timestep_mdot[i] = np.log10((10**timestep_mdot[i]))
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2525: RuntimeWarning: divide by zero encountered in log10
+  population_flux_iterations_send.append(np.log10(population_flux)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2539: RuntimeWarning: divide by zero encountered in log10
+  timestep_uv_slope_x, timestep_uv_slope_y, timestep_uv_slope_beta = get_uv_slope(np.log10(reformed_spec_grid[0][:,0]), np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2549: RuntimeWarning: divide by zero encountered in log10
+  population_flux_total_iterations_send.append(np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:1941: RuntimeWarning: divide by zero encountered in log10
+  Qilog = np.log10(Qi)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2927: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3121: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HI_flux_iterations, label='Pauli')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3131: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3136: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3140: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEI_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3155: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3159: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEII_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3169: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3177: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_L_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3186: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3237: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3257: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3292: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3348: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3400: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3437: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3447: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3453: RuntimeWarning: divide by zero encountered in log10
+  ax.scatter(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3463: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Execution time: 108.43860411643982 seconds
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2777: SyntaxWarning: invalid escape sequence '\m'
+  plt.xlabel('$T_\mathrm{eff}$ [kK]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2778: SyntaxWarning: invalid escape sequence '\,'
+  plt.ylabel('log($L)\, [L_{\odot}$]', fontsize=15)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2918: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Wavelength [$\AA$]', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2919: SyntaxWarning: invalid escape sequence '\A'
+  plt.ylabel('log (Luminosity [$erg s^{-1} \AA^{-1}$])', fontsize=20)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2087: RuntimeWarning: divide by zero encountered in log10
+  timestep_mdot[i] = np.log10((10**timestep_mdot[i]))
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2175: RuntimeWarning: invalid value encountered in log10
+  wmom = np.log10(wind_mom_sum +1e-30) + 35.
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2178: RuntimeWarning: invalid value encountered in log10
+  wmom_xshootu = np.log10(wind_mom_xshootu_sum +1e-30) + 35.
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2525: RuntimeWarning: divide by zero encountered in log10
+  population_flux_iterations_send.append(np.log10(population_flux)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2539: RuntimeWarning: divide by zero encountered in log10
+  timestep_uv_slope_x, timestep_uv_slope_y, timestep_uv_slope_beta = get_uv_slope(np.log10(reformed_spec_grid[0][:,0]), np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2549: RuntimeWarning: divide by zero encountered in log10
+  population_flux_total_iterations_send.append(np.log10(population_flux_total)+20.)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:1941: RuntimeWarning: divide by zero encountered in log10
+  Qilog = np.log10(Qi)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:2927: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3121: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HI_flux_iterations, label='Pauli')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3131: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3136: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3140: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEI_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3150: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3155: RuntimeWarning: divide by zero encountered in log10
+  times_steps_log = np.log10(times_steps)
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3159: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_HEII_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3169: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3177: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), population_ion_L_flux_iterations, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3186: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3237: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3257: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3292: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3348: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3400: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3437: RuntimeWarning: divide by zero encountered in log10
+  ax.plot(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3447: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3453: RuntimeWarning: divide by zero encountered in log10
+  ax.scatter(np.log10(times_steps), SN_rates, label='pySB')
+/Users/dexbhadra/Documents/delphi/Starburst/pySB99.py:3463: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Execution time: 83.57551789283752 seconds
+running Z = 0.014
+running Z = 0.006
+running Z = 0.002
+running Z = 0.0004
