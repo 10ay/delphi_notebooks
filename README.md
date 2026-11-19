@@ -1,2 +1,2 @@
-# delphi_notebooks
-Delphi Notebooks. Not the Actual code.
+# Pythia
+I make plots for my project incorporating stripped binaries in the star formation histories (SFHs) of DELPHI galaxies. My pet cockroach Carpet asked me to put those plots here before I forget. 
